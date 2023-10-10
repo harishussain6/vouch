@@ -96,11 +96,6 @@ function CreateVendor({ props }) {
 			setForm(vendor);
 			console.log(form)
 			
-		}else{
-			console.log(form)
-			setForm(vendor);
-			console.log(form)
-			console.log('else');
 		}
 	}, [form, vendor, setForm]);
 
