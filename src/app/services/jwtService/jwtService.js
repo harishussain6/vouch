@@ -3,8 +3,8 @@ import axios from 'axios';
 import jwtDecode from 'jwt-decode';
 /* seslint-disable camelcase */
 
-// axios.defaults.baseURL = 'https://portalendpoint.vouch365.xyz/';
-axios.defaults.baseURL = 'https://adminportaltest.vouch365.mobi/';
+axios.defaults.baseURL = 'https://portalendpoint.vouch365.xyz/';
+// axios.defaults.baseURL = 'https://adminportaltest.vouch365.mobi/';
 // axios.defaults.baseURL = 'http://localhost:8000/';
 // axios.defaults.baseURL = 'https://adminportalstaging.vouch365.club/';
 axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
